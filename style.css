@@ -3,8 +3,6 @@ Bol4 applicatieontwikkelaar
 Week 7 - HTML/CSS
 opdracht: Week 7 - Grid*/
 
-/*font-family: 'Lato', sans-serif;*/
-
 #container{
 	display: grid;
 	grid-template-columns: auto auto auto;
@@ -35,10 +33,6 @@ opdracht: Week 7 - Grid*/
 	grid-column: 2 / 4;
 	background-image: url(img/header_bg.png);
 }
-
-/*.grid{
-	border: 5px solid red;
-}*/
 
 .item3{
 	grid-row: 2;
@@ -92,8 +86,23 @@ opdracht: Week 7 - Grid*/
 	background-image: url(img/footer_bg.png);
 }
 
-/*.actief{
+h1{
+	font-size: 26px;
+	line-height: 30px;
+}
+
+h2{
+	font-size: 20px;
+	line-height: 32px;
+}
+
+p{
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.actief{
 	color: lightgreen;
 	border: 2px solid red;
 	padding: 5px;
-}*/
+}
